@@ -52,10 +52,11 @@ const EmailForm = () => {
 
   const onSubmit = async (values) => {
     setIsSubmitting(true);
+    console.log(`${process.env.NEXT_PUBLIC_API_URL}/send-placement-email`);
 
     try {
       const response = await fetch(
-        "http://localhost:3000/send-placement-email",
+        `${process.env.NEXT_PUBLIC_API_URL}/send-placement-email`,
         {
           method: "POST",
           headers: {
