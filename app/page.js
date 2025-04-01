@@ -123,7 +123,7 @@ const EmailForm = () => {
                       </div>
                     </FormControl>
                     <FormDescription>
-                      The name of the person you're sending the email to
+                      The name of the person you&apos;re sending the email to
                     </FormDescription>
                     <FormMessage />
                   </FormItem>
@@ -146,7 +146,7 @@ const EmailForm = () => {
                       </div>
                     </FormControl>
                     <FormDescription>
-                      The name of the company you're inviting
+                      The name of the company you&apos;re inviting
                     </FormDescription>
                     <FormMessage />
                   </FormItem>
